@@ -1,0 +1,66 @@
+.card {
+  background-color: #FFB200;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  margin: 10px auto;
+  max-width: 800px;
+  text-align: left;
+}
+
+.profile-photo {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.card-content {
+  flex: 1;
+}
+
+.card h2 {
+  margin: 5px 0;
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.card p {
+  margin: 5px 0;
+  color: #555;
+}
+
+.email {
+  display: block;
+  margin-bottom: 20px;
+  color: #333;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.email:hover {
+  color: #007bff;
+}
+
+.social-links {
+  display: flex;
+  gap: 15px;
+}
+
+.social-links a {
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: #333;
+  transition: background-color 0.3s ease;
+}
+
+.social-links a:hover {
+  background-color: #007bff;
+  color: #fff;
+}

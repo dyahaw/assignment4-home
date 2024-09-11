@@ -1,0 +1,101 @@
+.header-space {
+    height: 80px;
+  }
+
+  .content-wrapper {
+    position: relative;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 0;
+    font-size: 2.5rem;
+    font-weight: bold;
+    padding: 10px;
+  }
+
+  .view-switcher {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+
+  .view-switcher svg {
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
+
+  .view-switcher svg:hover {
+    color: #007bff;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: calc(100% - 40px);
+  }
+
+  .table-view {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    border-collapse: collapse;
+    font-size: 1rem;
+    text-align: left;
+    padding: 0 20px;
+  }
+
+  .table-view th,
+  .table-view td {
+    border-bottom: 1px solid;
+    padding: 12px 15px;
+  }
+
+  .table-photo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+
+  .search-sort-bar {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+
+  .search-sort-bar input {
+    padding: 10px;
+    width: 70%;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+  }
+
+  .search-sort-bar select {
+    padding: 10px;
+    width: 25%;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    cursor: pointer;
+  }
+
+  .transition-wrapper {
+    transition: opacity 0.3s ease-in-out;
+  }
+
+  .fade-in {
+    opacity: 1;
+  }
+
+  .fade-out {
+    opacity: 0;
+  }

@@ -1,0 +1,146 @@
+.movie-list {
+  padding: 20px;
+  color: white;
+}
+
+.search-sort-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.search-input {
+  font-size: 1.2rem;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 500px;
+}
+
+select {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.movies-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 20px;
+}
+
+.movie-card {
+  background-color: black;
+  padding: 15px;
+  border-radius: 8px;
+  overflow: hidden;
+  position: relative;
+}
+
+.movie-card img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.movie-card h3, .movie-card h4 {
+  margin: 10px 0;
+}
+
+.movie-card p {
+  font-size: 0.9rem;
+  text-align: justify;
+}
+
+.favorite-button {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  background-color: #ffb200;
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.favorite-button.favorited {
+  background-color: #d9534f;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.pagination button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.pagination button {
+  padding: 10px 20px;
+  margin: 0 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+}
+
+.modal-content {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 60%;
+  max-width: 400px;
+  margin: auto;
+  position: relative;
+}
+
+.modal-content img {
+  width: 60%;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.modal-content h2 {
+  margin: 0;
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+}
+
+.modal-content p {
+  font-size: 1rem;
+  text-align: justify;
+}
+
+.modal-content button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.modal-content button:hover {
+  background-color: #0056b3;
+}
+
+.ReactModal__Overlay {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.ReactModal__Content {
+  padding: 0;
+  border: none;
+  margin: 0;
+  background-color: transparent;
+}

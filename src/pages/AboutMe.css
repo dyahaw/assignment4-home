@@ -1,0 +1,63 @@
+.about-me-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 20px;
+  margin: 50px 10% 0;
+}
+
+.about-me-photo {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 20px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.about-me-photo:hover {
+  transform: scale(1.05);
+}
+
+.about-me-content {
+  flex: 1;
+}
+
+.about-me-content h2 {
+  text-align: left;
+  margin-bottom: 10px;
+  font-size: 2.5rem;
+}
+
+.about-me-content p {
+  text-align: justify;
+  margin-bottom: 10px;
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.about-me-content a {
+  color: #007bff;
+  text-decoration: none;
+  font-size: 1.1rem;
+}
+
+.about-me-content a:hover {
+  text-decoration: underline;
+}
+
+.social-links {
+  display: flex;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.social-icon {
+  font-size: 30px;
+  color: #333;
+  transition: color 0.3s ease-in-out;
+}
+
+.social-icon:hover {
+  color: #007bff;
+}
