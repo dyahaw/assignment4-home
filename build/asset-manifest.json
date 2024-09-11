@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/assignment4/home/static/css/main.07b6f74a.css",
+    "main.js": "/assignment4/home/static/js/main.63c27490.js",
+    "static/js/453.6c073028.chunk.js": "/assignment4/home/static/js/453.6c073028.chunk.js",
+    "static/media/dyahayuw.jpg": "/assignment4/home/static/media/dyahayuw.71eb729152db3fe98d63.jpg",
+    "static/media/livingin-telkom.png": "/assignment4/home/static/media/livingin-telkom.60a7ea46fd5b1da724f5.png",
+    "static/media/female.png": "/assignment4/home/static/media/female.ba52306815ee978577b4.png",
+    "static/media/digistarclass.jpg": "/assignment4/home/static/media/digistarclass.b51c313b42a36241808b.jpg",
+    "static/media/male.png": "/assignment4/home/static/media/male.5be5fc4ed45b47e7691d.png",
+    "index.html": "/assignment4/home/index.html",
+    "main.07b6f74a.css.map": "/assignment4/home/static/css/main.07b6f74a.css.map",
+    "main.63c27490.js.map": "/assignment4/home/static/js/main.63c27490.js.map",
+    "453.6c073028.chunk.js.map": "/assignment4/home/static/js/453.6c073028.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.07b6f74a.css",
+    "static/js/main.63c27490.js"
+  ]
+}
